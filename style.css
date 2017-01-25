@@ -2,3 +2,20 @@ body
 {
     margin: 0px;
 }
+.margin1
+{
+    margin-right: 10px;
+}
+.navbar-brand1
+{
+    display: inline-block;
+    width: 100%;
+}
+.bars
+{
+    color: black;
+}
+.margin2
+{
+    margin-top: 1%;
+}

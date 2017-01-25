@@ -11,36 +11,48 @@
         <title>MisterGoodFood</title>
     </head>
     <body class="container-fluid">
-        <header class="row hidden-xs">
-            <nav class="navbar navbar-default navbar-fixed-top col-sm-12">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a href="index.html" class="navbar-brand">MisterGoodFood</a>
-                    </div>
-                    <ul class="nav navbar-nav btn-group col-sm-3">
+        <script src="bootstrap-3.3.7-dist/js/jquery-3.1.1.min.js"></script>
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <header class="container-fluid hidden-xs hidden-sm">
+            <nav class="navbar navbar-default navbar-fixed-top col-md-12">
+                <div class="row">
+                    <a href="index.html" class="navbar-brand">MisterGoodFood</a>
+                    <ul class="nav navbar-nav btn-group col-md-4">
                         <li><a class="btn">Accueil</a></li>
                         <li><a class="btn">Catégories</a></li>
-                        <li><a class="btn">Boutique</a></li>
+                        <li><a class="btn">Boutique</a></li> 
                     </ul>
-                    
-                    <form class="navbar-form navbar-left">
-                        <ul class="nav navbar-nav btn-group" role="group">
-                            <li><a class="btn btn-social-icon btn-pinterest"><span class="fa fa-pinterest fa-inverse"></span></a></li>
-                            <li><a class="btn btn-social-icon btn-facebook"><span class="fa fa-facebook fa-inverse"></span></a></li>
-                            <li><a class="btn btn-social-icon btn-google"><span class="fa fa-google fa-inverse"></span></a></li>
-                            <li><a class="btn btn-social-icon btn-instagram"><span class="fa fa-instagram fa-inverse"></span></a></li> 
-                        </ul>
-                    </form>
-                    <form class="navbar-form navbar-right" role="search">
-                            <input type="email" placeholder="Votre e-mail" class="form-control"/>
+                    <ul class="nav navbar-nav col-md-2">
+                        <li><a class="navbar-form btn btn-social-icon btn-pinterest"><span class="fa fa-pinterest fa-inverse"></span></a></li>
+                        <li><a class="navbar-form btn btn-social-icon btn-facebook"><span class="fa fa-facebook fa-inverse"></span></a></li>
+                        <li><a class="navbar-form btn btn-social-icon btn-google"><span class="fa fa-google fa-inverse"></span></a></li>
+                        <li><a class="navbar-form btn btn-social-icon btn-instagram"><span class="fa fa-instagram fa-inverse"></span></a></li>
+                    </ul>
+                    <div class="margin1">
+                        <form class="navbar-form navbar-right" role="search">
                             <div class="input-group">
-                                <input type="email" placeholder="Votre mot de passe" class="form-control"/>
+                                <input type="search" placeholder="Recherche" class="form-control"/>
                                 <div class="input-group-btn">
-                                    <a class="btn btn-default "><span class="fa fa-check-square"></span></a>
+                                    <a class="btn btn-default "><span class="fa fa-search"></span></a>
                                 </div>
                             </div>
-                            <a class="btn btn-warning "><span class="fa fa-user"></span></a>
-                    </form>
+                            <a class="btn btn-warning"><span class="fa fa-user"></span></a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <header class="container-fluid hidden-md hidden-lg">
+            <nav class="navbar navbar-default navbar-fixed-top col-xs-12">
+                <div class="row">
+                    <a role="button" data-toggle="collapse" href="#collapsed" class="navbar-brand btn bars col-xs-2"><span class="fa fa-bars"></span></a>
+                    <div class="navabar-header col-xs-8">
+                        <a class="navbar-brand navbar-brand1 btn">MisterGoodFood</a>
+                    </div>
+                    <a class="navbar-brand btn btn-warning col-xs-2"><span class="fa fa-user fa-inverse"></span></a>
+                </div>
+                <div class="collapse" id="collapsed">
+                    <p>Ici il y aura les liens comme sur la version ordi.... Et les liens pour les résaux sociaux.</p>
                 </div>
             </nav>
         </header>
