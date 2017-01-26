@@ -1,0 +1,30 @@
+A ce stade le site mérite encore beaucoup d'améliorations....
+
+Button USER :
+    SI aucun utilisateur est connecté il permets de se connecter en affichant un modal de connection (qui propose aussi de se créer un compte.) Ce modal devra plus tard permetre la connexion avec Facebook, Google (peut être d'autres). Ce modal devra aussi gérer les oublis de mots de passe.
+    SI un utilisateur est connecté, ce bouton ouvrira une autre page de gestion du compte....
+   
+Barre de navigation :
+    Scrollspy dans la barre de navigation pour les ordinateurs (uniquement ?)
+    
+Système de comptes utilisateur :
+    
+    Différents niveaux d'autorisation sur le site, à la finalisation de ce dernier : - Administrateur (moi et Enees)
+                                                                                     - Créateur de contenu vérifié et Modo du Forum
+                                                                                     - Utilisateur pouvant user du forum, commenter et proposer du contenu (à vérfier).
+                                                                                     - Utilisateur non connecté
+                                                                                     - Banni d'expression sur le site (durée)
+    Avatar, infos :email, ....
+    Un système de favoris, de j'aime ou j'aime pas (j'aime pas à rajouter dans un deuxième temps en fonction du succès)
+    Possibilité de sauvegarder un panier, ou avoir une liste souhaits.
+    Pouvoir recevoir de notifications. Système de "à lire plus tard".
+    Gérer sa newsletter.
+    
+
+A DEMANDER A ENEES :
+    
+   A-t-il envie d'avoir un Forum, des comptes utilisateurs ?
+   Veut-il un système de notation ou de j'aimes ?
+   Demander un premier article.
+   Lui dire qu'il faudra bientôt son compte ovh.... Publication du site en cours de construction ?
+   Demander le lien vers ses comptes Pinterest, Facebook, et Google pour MisterGoodFood.
