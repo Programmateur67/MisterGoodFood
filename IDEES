@@ -6,6 +6,8 @@ Button USER :
    
 Barre de navigation :
     Scrollspy dans la barre de navigation pour les ordinateurs (uniquement ?)
+    Bug buttons quand HOVER --> c'est à cause de la classe nav ou navbar, à voir si on corrige..
+    navbar-inverse ? Une bonne idée ?
     
 Système de comptes utilisateur :
     
