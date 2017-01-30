@@ -1,6 +1,7 @@
 body
 {
     margin: 0px;
+    padding: 0px;
 }
 .margin1
 {
@@ -43,7 +44,7 @@ header
 }
 .newsletter
 {
-    margin-top: 22%;
+
     color: white;
 }
 .margin {
@@ -52,9 +53,7 @@ header
 
 
 
-.marginco {
-    margin-bottom: 95%;
-}
+
 
 .recette {
     list-style-type: none;
@@ -71,3 +70,45 @@ header
     padding: 20px;
     color: white;
 }
+
+
+
+.bg {
+    
+}
+
+.titre {
+    font-size: 50px;
+}
+
+.ingredient {
+    font-size: 25px;
+    color: limegreen;
+}
+
+.list-recette {
+    list-style-type: none;
+    
+}
+
+.radius {
+    border-radius: 35px;
+}
+
+.backtitre {
+    background-color: #333333;
+}
+
+.backtitle {
+    background-color: #333333;
+}
+
+.white {
+   color: white;
+}
+
+.minHeight {
+    min-height: 245px;
+}
+
+
