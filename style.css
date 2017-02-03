@@ -44,15 +44,12 @@ header
 }
 .newsletter
 {
-
+    margin-top: 22%;
     color: white;
 }
 .margin {
     margin-bottom: 5px;
 }
-
-
-
 
 
 .recette {
@@ -71,7 +68,9 @@ header
     color: white;
 }
 
-
+.marginco{
+    margin-bottom: 50%;
+}
 
 .bg {
     
@@ -112,3 +111,26 @@ header
 }
 
 
+
+.backune {
+    background-color: #e7e7e7;
+}
+
+.table-head {
+    color: white;
+    background-color: #777777;
+}
+
+.table-recette > tbody > tr > td {
+    text-align: center;
+}
+
+.big {
+    float:left;
+    margin-right: 10px;
+    font-size: 40px;     
+}
+
+.padding {
+    padding: 1%;
+}
